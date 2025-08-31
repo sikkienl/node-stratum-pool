@@ -8,13 +8,13 @@
         "pool",
         "server",
         "poolserver",
-        "bitcoin",
-        "litecoin",
+        "neobytes",
+        "neoscrypt",
         "scrypt"
     ],
-    "homepage": "https://github.com/zone117x/node-stratum-pool",
+    "homepage": "https://github.com/sikkienl/node-stratum-pool",
     "bugs": {
-        "url": "https://github.com/zone117x/node-stratum-pool/issues"
+        "url": "https://github.com/sikkienl/node-stratum-pool/issues"
     },
     "license": "GPL-2.0",
     "author": "Matthew Little",
@@ -25,15 +25,15 @@
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "https://github.com/zone117x/node-stratum-pool.git"
+        "url": "https://github.com/sikkienl/node-stratum-pool.git"
     },
     "dependencies": {
-        "multi-hashing": "git://github.com/zone117x/node-multi-hashing.git",
+        "async": "^3.2.5",
+        "base58-native": "^0.1.4",
         "bignum": "0.13.1",
-        "base58-native": "*",
-        "async": "*"
+        "multi-hashing": "git+https://github.com/sikkienl/node-multi-hashing.git"
     },
     "engines": {
-        "node": ">=0.10"
+        "node": ">=8.11"
     }
 }
